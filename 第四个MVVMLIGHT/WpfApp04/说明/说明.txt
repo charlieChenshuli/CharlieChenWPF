@@ -1,0 +1,7 @@
+1 实验VIEWMODE 路由事件获取 VIEW中的 BUTTON 等 控件
+
+2 实现DATAGRID中 BUTTON MVVM的应用
+
+3 采用MVVMLIGHT 的EventToCommand      触发器。
+
+4 Interactivity版本不匹配 问题   修改APP.CONFIG 里有 版本编号  详细看程序

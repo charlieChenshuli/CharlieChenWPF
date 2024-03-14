@@ -1,0 +1,17 @@
+C:\Users\shuli\Desktop\CUSTOM\CUSTOM\CUSTOM\bin\Debug\CUSTOM.exe.config
+C:\Users\shuli\Desktop\CUSTOM\CUSTOM\CUSTOM\bin\Debug\CUSTOM.exe
+C:\Users\shuli\Desktop\CUSTOM\CUSTOM\CUSTOM\bin\Debug\CUSTOM.pdb
+C:\Users\shuli\Desktop\CUSTOM\CUSTOM\CUSTOM\obj\Debug\MainWindow.g.cs
+C:\Users\shuli\Desktop\CUSTOM\CUSTOM\CUSTOM\obj\Debug\App.g.cs
+C:\Users\shuli\Desktop\CUSTOM\CUSTOM\CUSTOM\obj\Debug\CUSTOM_MarkupCompile.cache
+C:\Users\shuli\Desktop\CUSTOM\CUSTOM\CUSTOM\obj\Debug\MainWindow.baml
+C:\Users\shuli\Desktop\CUSTOM\CUSTOM\CUSTOM\obj\Debug\CUSTOM.g.resources
+C:\Users\shuli\Desktop\CUSTOM\CUSTOM\CUSTOM\obj\Debug\CUSTOM.Properties.Resources.resources
+C:\Users\shuli\Desktop\CUSTOM\CUSTOM\CUSTOM\obj\Debug\CUSTOM.csproj.GenerateResource.cache
+C:\Users\shuli\Desktop\CUSTOM\CUSTOM\CUSTOM\obj\Debug\CUSTOM.csproj.CoreCompileInputs.cache
+C:\Users\shuli\Desktop\CUSTOM\CUSTOM\CUSTOM\obj\Debug\CUSTOM.exe
+C:\Users\shuli\Desktop\CUSTOM\CUSTOM\CUSTOM\obj\Debug\CUSTOM.pdb
+C:\Users\shuli\Desktop\CUSTOM\CUSTOM\CUSTOM\obj\Debug\CUSTOM.csprojAssemblyReference.cache
+C:\Users\shuli\Desktop\CUSTOM\CUSTOM\CUSTOM\obj\Debug\CUSTOM.csproj.CopyComplete
+C:\Users\shuli\Desktop\CUSTOM\CUSTOM\CUSTOM\bin\Debug\WpfCustomControlLibrary.dll
+C:\Users\shuli\Desktop\CUSTOM\CUSTOM\CUSTOM\bin\Debug\WpfCustomControlLibrary.pdb

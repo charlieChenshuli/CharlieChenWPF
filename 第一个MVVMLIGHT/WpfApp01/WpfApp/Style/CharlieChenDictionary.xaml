@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="DiStyle" TargetType="{x:Type TextBox}">
+        <Setter Property="Background" Value="Red"></Setter>
+        <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+        <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+        <Setter Property="Margin" Value="5"></Setter>
+        <Setter Property="FontStretch" Value="Expanded"></Setter>
+       
+    </Style>
+</ResourceDictionary>
