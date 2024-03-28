@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.Windows.Input;
 using System.Windows;
 using System;
+using System.Windows.Controls;
 
 namespace ViewModel
 {
@@ -21,15 +22,10 @@ namespace ViewModel
     /// </summary>
     public class MainViewModel : ViewModelBase
     {
-        public MainViewModel()
-        {
-            MainModelClass = new MainModel();
-            MainModelClass.TextOne = " ";
-            MainModelClass.TextTwo = " ";
-            MainModelClass.TextResult = " ";
-        }
-        #region 属性
-        private MainModel mainModel;
+        /// <summary>
+        /// 
+        /// </summary>
+        private MainModel mainModel { get; set; }
         /// <summary>
         /// 用户信息
         /// </summary>
@@ -38,15 +34,33 @@ namespace ViewModel
             get { return mainModel; }
             set { mainModel = value; RaisePropertyChanged(() => MainModelClass); }
         }
+
+
+
+        public MainViewModel()
+        {
+            MainModelClass = new MainModel();
+            MainModelClass.TextOne = "123";
+            MainModelClass.TextTwo = "123";
+            MainModelClass.TextResult = "***********";
+        }
+        #region 属性
+ 
         #endregion
         #region 命令
         #endregion
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void AddButtonClick(object sender, MouseButtonEventArgs e)
         {
             try
             {
                 MainModelClass.TextResult = Convert.ToString(Convert.ToInt32(MainModelClass.TextOne.Trim()) + Convert.ToInt32(MainModelClass.TextTwo.Trim()));
+                MessageBox.Show((sender as Button).Content.ToString());
             }
             catch(Exception E)
             {
