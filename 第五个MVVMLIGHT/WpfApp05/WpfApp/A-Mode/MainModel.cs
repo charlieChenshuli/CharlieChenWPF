@@ -75,6 +75,17 @@ namespace Mode
                 set { age = value; RaisePropertyChanged(() => Age); }
             }
 
+            public string dataGridBackGround;
+            /// <summary>
+            /// 用户地址
+            /// </summary>
+            public String DataGridBackGround
+            {
+                get { return dataGridBackGround; }
+                set { dataGridBackGround = value; RaisePropertyChanged(() => DataGridBackGround); }
+            }
+
+
         }
 
     }

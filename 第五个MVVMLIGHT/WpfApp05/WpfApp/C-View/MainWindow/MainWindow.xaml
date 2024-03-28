@@ -102,7 +102,7 @@
                 <DataGridTemplateColumn>
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <Button Width="50"  Content="{Binding Id}">
+                            <Button Width="50"  Content="{Binding Id}" Background="{Binding DataGridBackGround}">
                                 <i:Interaction.Triggers>
                                     <i:EventTrigger EventName="PreviewMouseLeftButtonDown">
                                         <cmd:EventToCommand  Command="{Binding DataContext.GridAddButtonClick,RelativeSource={RelativeSource AncestorType=DataGrid}}"   PassEventArgsToCommand="True"/>

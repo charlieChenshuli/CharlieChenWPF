@@ -220,9 +220,10 @@ namespace ViewModel
             try
             {
                 Button GridBtn = e.Source as Button;
-                GridBtn.Background = Brushes.Red;
+             
                 //修改后台对象
                 Mylist[Convert.ToInt32(GridBtn.Content)].Age = "GOGOGOG";
+                Mylist[Convert.ToInt32(GridBtn.Content)].DataGridBackGround = "#FF0000";
 
             }
             catch (Exception E)
